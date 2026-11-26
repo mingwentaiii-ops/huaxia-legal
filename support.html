@@ -1,2 +1,94 @@
 <!DOCTYPE html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>帮助与联系｜华夏天文</title><style>:root{color-scheme:dark}body{margin:0;background:#101626;color:#e7ecfc;font:16px/1.8 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft Yahei",sans-serif}main{max-width:740px;margin:auto;padding:34px 24px 68px}nav{display:flex;gap:18px;flex-wrap:wrap}a{color:#a9c5ff}h1{font-size:30px;line-height:1.3;margin:36px 0 20px}h2{font-size:17px;margin:28px 0 7px}p{color:#cad2e8;margin:3px 0 12px}small{color:#8f9ebf}footer{border-top:1px solid #303850;padding-top:18px;margin-top:38px;color:#899aba}</style></head><body><main><nav><a href="index.html">首页</a><a href="privacy.html">隐私政策</a><a href="terms.html">使用条款</a><a href="support.html">帮助与联系</a></nav><h1>帮助与联系</h1><p>需要帮助，请联系 <a href="mailto:mingwentaiii@gmail.com">mingwentaiii@gmail.com</a>。</p><h2>如何取消订阅？</h2><p>前往 iPhone「设置 → Apple 账户 → 订阅」，选择华夏天文。</p><h2>如何恢复购买？</h2><p>在 App 的「司天订阅」页面使用「恢复购买」。</p><h2>如何申请退款？</h2><p>在 <a href="https://reportaproblem.apple.com/">Apple 退款入口</a>提交申请。</p><h2>如何反馈问题？</h2><p>使用 App 的「问题反馈」，或向上述邮箱发送邮件。</p><footer>华夏天文 · 开发者：姜东方 · <a href="mailto:mingwentaiii@gmail.com">联系开发者</a></footer></main></body></html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>帮助与联系｜华夏天文</title>
+  <meta name="huaxia-title-hans" content="帮助与联系｜华夏天文">
+  <meta name="huaxia-title-hant" content="幫助與聯繫｜華夏天文">
+  <meta name="description" content="华夏天文帮助中心与开发者支持：订阅取消与恢复、退款申请、观测地点与时区说明、天象提醒及问题反馈。">
+  <link rel="icon" type="image/png" href="assets/favicon-64.png">
+  <link rel="apple-touch-icon" href="assets/icon-180.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a id="nav-brand" class="brand-link" href="index.html">
+        <img class="brand-icon" src="assets/icon-180.png" width="30" height="30" alt="华夏天文">
+        <span data-hant="華夏天文">华夏天文</span>
+      </a>
+      <div class="header-controls">
+        <nav class="site-nav" aria-label="主导航">
+          <a id="nav-home" href="index.html" data-hant="首頁">首页</a>
+          <a id="nav-privacy" href="privacy.html" data-hant="隱私政策">隐私政策</a>
+          <a id="nav-terms" href="terms.html" data-hant="使用條款">使用条款</a>
+          <a id="nav-support" href="support.html" aria-current="page" data-hant="幫助與聯繫">帮助与联系</a>
+        </nav>
+        <div class="lang-switch" role="group" aria-label="语言切换">
+          <button id="lang-hans" type="button" class="lang-btn" data-set-lang="zh-Hans" aria-pressed="true">简</button>
+          <button id="lang-hant" type="button" class="lang-btn" data-set-lang="zh-Hant" aria-pressed="false">繁</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <section class="page-hero">
+      <h1 class="page-title" data-hant="幫助與聯繫">帮助与联系</h1>
+      <p class="page-lead" data-hant="在使用華夏天文時遇到任何天象數據疑問、古籍引文校勘建議或訂閱問題，歡迎透過下方電子郵件直接聯繫開發者，或先參考常見問題解答。">在使用华夏天文时遇到任何天象数据疑问、古籍引文校勘建议或订阅问题，欢迎通过下方电子邮件直接联系开发者，或先参考常见问题解答。</p>
+      <div class="action-row">
+        <a id="send-email-btn" class="btn-primary" href="mailto:mingwentaiii@gmail.com?subject=%5B%E5%8D%8E%E5%A4%8F%E5%A4%A9%E6%96%87%20%C2%B7%20%E7%94%A8%E6%88%B7%E5%8F%8D%E9%A6%88%5D">
+          <span data-hant="發送郵件至開發者">发送邮件至开发者</span>
+        </a>
+        <button id="copy-email-btn" type="button" class="btn-secondary" data-email="mingwentaiii@gmail.com">
+          <span data-copy-label data-hant="複製信箱：mingwentaiii@gmail.com">复制邮箱：mingwentaiii@gmail.com</span>
+        </button>
+      </div>
+    </section>
+
+    <div class="faq-group">
+      <section class="faq-item">
+        <h2 data-hant="如何取消「司天訂閱」？">如何取消「司天订阅」？</h2>
+        <p data-hant="請前往 iPhone「設定 → Apple 帳戶 → 訂閱」（或點擊 <a href=&quot;https://apps.apple.com/account/subscriptions&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;>Apple 訂閱管理入口</a>），選擇「華夏天文」並點擊取消訂閱。請在當前計費週期結束前至少 24 小時完成取消；取消後你仍可繼續使用司天權益直至當前已付費週期結束。">请前往 iPhone「设置 → Apple 账户 → 订阅」（或点击 <a href="https://apps.apple.com/account/subscriptions" rel="noopener noreferrer" target="_blank">Apple 订阅管理入口</a>），选择「华夏天文」并点击取消订阅。请在当前计费周期结束前至少 24 小时完成取消；取消后你仍可继续使用司天权益直至当前已付费周期结束。</p>
+      </section>
+
+      <section class="faq-item">
+        <h2 data-hant="更換手機或重裝 App 後如何恢復購買？">更换手机或重装 App 后如何恢复购买？</h2>
+        <p data-hant="確認登入購買時使用的同一 Apple 帳戶，打開華夏天文左上角「設定 → 司天訂閱」，點擊頁面下方的「恢復購買」即可重新同步有效訂閱權益。請注意：個人收藏與離線緩存儲存在手機本機，暫不支援跨裝置雲端同步。">确认登录购买时使用的同一 Apple 账户，打开华夏天文左上角「设置 → 司天订阅」，点击页面下方的「恢复购买」即可重新同步有效订阅权益。请注意：个人收藏与离线缓存存储在手机本机，暂不支持跨设备云端同步。</p>
+      </section>
+
+      <section class="faq-item">
+        <h2 data-hant="如何申請訂閱退款？">如何申请订阅退款？</h2>
+        <p data-hant="App Store 內購與訂閱款項由 Apple 統一結算，開發者無法直接在後台發起退款。請前往 Apple 官方 <a id=&quot;refund-link&quot; href=&quot;https://reportaproblem.apple.com/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;>reportaproblem.apple.com</a> 登入你的 Apple 帳戶提交退款申請。">App Store 内购与订阅款项由 Apple 统一结算，开发者无法直接在后台发起退款。请前往 Apple 官方 <a id="refund-link" href="https://reportaproblem.apple.com/" rel="noopener noreferrer" target="_blank">reportaproblem.apple.com</a> 登录你的 Apple 账户提交退款申请。</p>
+      </section>
+
+      <section class="faq-item">
+        <h2 data-hant="App 中的時間與時區是如何計算的？">App 中的时间与时区是如何计算的？</h2>
+        <p data-hant="星空時鐘、天象日曆的月份與日期分組，以及「本地」與「全球」天象的發生時刻與觀測時段，一律按你所選觀測地點的當地時區（含夏令時）顯示並標註時差。農曆、節氣與干支依中國曆法規範按東八區編算，當地日期標註同一公曆日期的農曆與干支。">星空时钟、天象日历的月份与日期分组，以及「本地」与「全球」天象的发生时刻与观测时段，一律按你所选观测地点的当地时区（含夏令时）显示并标注时差。农历、节气与干支依中国历法规范按东八区编算，当地日期标注同一公历日期的农历与干支。</p>
+      </section>
+
+      <section class="faq-item">
+        <h2 data-hant="為什麼天象已經發生，卻沒有「有觀測機會」標記或無法設提醒？">为什么天象已经发生，却没有「有观测机会」标记或无法设提醒？</h2>
+        <p data-hant="「本地天象」按站心幾何收錄（例如白天發生的月掩星仍會收錄以保持曆表完整），但只有同時滿足夜間暮光、地平高度、目標星等與月相干擾等肉眼觀測條件時，才會標記「有觀測機會」。天象提醒僅針對具有本地肉眼觀測機會的事件，在預計觀測機會開始時發送一次通知。">「本地天象」按站心几何收录（例如白天发生的月掩星仍会收录以保持历表完整），但只有同时满足夜间暮光、地平高度、目标星等与月相干扰等肉眼观测条件时，才会标记「有观测机会」。天象提醒仅针对具有本地肉眼观测机会的事件，在预计观测机会开始时发送一次通知。</p>
+      </section>
+
+      <section class="faq-item">
+        <h2 data-hant="如何更改觀測地點或檢查星圖對齊？">如何更改观测地点或检查星图对齐？</h2>
+        <p data-hant="可在星空頁左上角「設定 → 觀測地點」或天象頁底部導覽列中間點擊當前地點，離線搜尋全球三萬餘座城市、輸入經緯度或啟用「使用當前位置」。開啟右上角「跟隨手機指向」時，請遠離磁吸配件干擾並緩慢移動手機完成指南針校準。">可在星空页左上角「设置 → 观测地点」或天象页底部导航栏中间点击当前地点，离线搜索全球三万余座城市、输入经纬度或启用「使用当前位置」。开启右上角「跟随手机指向」时，请远离磁吸配件干扰并缓慢移动手机完成指南针校准。</p>
+      </section>
+    </div>
+
+    <footer class="site-footer">
+      <span data-hant="華夏天文 · 開發者：姜東方">华夏天文 · 开发者：姜东方</span>
+      <div class="footer-links">
+        <a href="index.html" data-hant="首頁">首页</a>
+        <a href="privacy.html" data-hant="隱私政策">隐私政策</a>
+        <a href="terms.html" data-hant="使用條款">使用条款</a>
+        <a href="mailto:mingwentaiii@gmail.com">mingwentaiii@gmail.com</a>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>

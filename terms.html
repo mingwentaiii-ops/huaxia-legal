@@ -1,6 +1,90 @@
 <!DOCTYPE html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>使用条款｜华夏天文</title><style>:root{color-scheme:dark}body{margin:0;background:#101626;color:#e7ecfc;font:16px/1.8 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft Yahei",sans-serif}main{max-width:740px;margin:auto;padding:34px 24px 68px}nav{display:flex;gap:18px;flex-wrap:wrap}a{color:#a9c5ff}h1{font-size:30px;line-height:1.3;margin:36px 0 20px}h2{font-size:17px;margin:28px 0 7px}p{color:#cad2e8;margin:3px 0 12px}small{color:#8f9ebf}footer{border-top:1px solid #303850;padding-top:18px;margin-top:38px;color:#899aba}</style></head><body><main><nav><a href="index.html">首页</a><a href="privacy.html">隐私政策</a><a href="terms.html">使用条款</a><a href="support.html">帮助与联系</a></nav><h1>使用条款</h1><small>更新日期：2026 年 11 月 22 日</small><h2>服务提供者</h2><p>华夏天文由姜东方提供，包含交互星空、天象查询与古籍参考功能。</p>
-<h2>使用许可</h2><p>App 适用 Apple 标准最终用户许可协议（EULA）。第三方数据、图片及开源组件遵循各自许可。</p>
-<h2>司天订阅</h2><p>订阅权益、价格、续订和取消方式均在 App 内「司天订阅」页面说明，并以 Apple 购买确认信息为准。订阅到期不会自动删除本机收藏。</p>
-<h2>天象参考</h2><p>天象资料用于天文学习与观测参考，实际观测受到天气、地形和光害等因素影响。</p>
-<h2>联系与生效</h2><p>如有疑问，请联系 mingwentaiii@gmail.com。本说明自 2026 年 11 月 22 日生效。</p><h2>Apple 最终用户许可协议</h2><p><a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">查看 Apple 标准 EULA</a></p><footer>华夏天文 · 开发者：姜东方 · <a href="mailto:mingwentaiii@gmail.com">联系开发者</a></footer></main></body></html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>使用条款｜华夏天文</title>
+  <meta name="huaxia-title-hans" content="使用条款｜华夏天文">
+  <meta name="huaxia-title-hant" content="使用條款｜華夏天文">
+  <meta name="description" content="华夏天文使用条款：适用 Apple 标准最终用户许可协议（EULA），说明司天自动续订规则、24 小时续费与取消机制及天文观测参考声明。">
+  <link rel="icon" type="image/png" href="assets/favicon-64.png">
+  <link rel="apple-touch-icon" href="assets/icon-180.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a id="nav-brand" class="brand-link" href="index.html">
+        <img class="brand-icon" src="assets/icon-180.png" width="30" height="30" alt="华夏天文">
+        <span data-hant="華夏天文">华夏天文</span>
+      </a>
+      <div class="header-controls">
+        <nav class="site-nav" aria-label="主导航">
+          <a id="nav-home" href="index.html" data-hant="首頁">首页</a>
+          <a id="nav-privacy" href="privacy.html" data-hant="隱私政策">隐私政策</a>
+          <a id="nav-terms" href="terms.html" aria-current="page" data-hant="使用條款">使用条款</a>
+          <a id="nav-support" href="support.html" data-hant="幫助與聯繫">帮助与联系</a>
+        </nav>
+        <div class="lang-switch" role="group" aria-label="语言切换">
+          <button id="lang-hans" type="button" class="lang-btn" data-set-lang="zh-Hans" aria-pressed="true">简</button>
+          <button id="lang-hant" type="button" class="lang-btn" data-set-lang="zh-Hant" aria-pressed="false">繁</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <section class="page-hero">
+      <h1 class="page-title" data-hant="使用條款">使用条款</h1>
+      <p class="page-meta" data-hant="更新日期：2026 年 11 月 26 日 · 生效日期：2026 年 11 月 22 日">更新日期：2026 年 11 月 26 日 · 生效日期：2026 年 11 月 22 日</p>
+      <p class="page-lead" data-hant="下載或使用「華夏天文」即表示你同意本使用條款及 Apple 標準最終用戶許可協議（Standard EULA）。請在購買「司天訂閱」前仔細閱讀自動續訂與取消規則。">下载或使用「华夏天文」即表示你同意本使用条款及 Apple 标准最终用户许可协议（Standard EULA）。请在购买「司天订阅」前仔细阅读自动续订与取消规则。</p>
+    </section>
+
+    <div class="card-stack">
+      <section class="glass-card section-card">
+        <h2 data-hant="1. 服務提供者與功能範圍">1. 服务提供者与功能范围</h2>
+        <p data-hant="華夏天文由姜東方開發並提供，包含交互式地平星空、本地與全球天象查詢以及對應的天象文獻引文功能。歷史與未來年代的天象資料採分階段發布，實際可查閱範圍以 App 內已開放月份與資料狀態為準。">华夏天文由姜东方开发并提供，包含交互式地平星空、本地与全球天象查询以及对应的天象文献引文功能。历史与未来年代的天象资料采分阶段发布，实际可查阅范围以 App 内已开放月份与资料状态为准。</p>
+      </section>
+
+      <section class="glass-card section-card">
+        <h2 data-hant="2. 使用許可與第三方資料授權">2. 使用许可与第三方资料授权</h2>
+        <p data-hant="本應用之軟體授權適用 <a href=&quot;https://www.apple.com/legal/internet-services/itunes/dev/stdeula/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;>Apple 標準最終用戶許可協議（EULA）</a>。App 所引用的公開科學星曆（NASA/JPL DE440/DE441）、天體測量庫（IAU ERFA、Astronomy Engine）、星官與星表資料（Stellarium 中國星空文化、HYG、Hipparcos、Gaia DR3、OpenNGC）、城市資料庫（GeoNames）及字體與影像素材，均遵循各自開源或公開許可條款，詳見 App 內「設定 → 資料來源與許可」。">本应用之软件授权适用 <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener noreferrer" target="_blank">Apple 标准最终用户许可协议（EULA）</a>。App 所引用的公开科学星历（NASA/JPL DE440/DE441）、天体测量库（IAU ERFA、Astronomy Engine）、星官与星表资料（Stellarium 中国星空文化、HYG、Hipparcos、Gaia DR3、OpenNGC）、城市数据库（GeoNames）及字体与影像素材，均遵循各自开源或公开许可条款，详见 App 内「设置 → 资料来源与许可」。</p>
+      </section>
+
+      <section class="glass-card section-card">
+        <h2 data-hant="3. 司天自動續訂訂閱條款">3. 司天自动续订订阅条款</h2>
+        <p data-hant="華夏天文提供基礎星空與近期普通天象免費使用（觀測地點當地日曆今天前 7 天至後 30 天），並提供可選的「司天訂閱」自動續訂服務：">华夏天文提供基础星空与近期普通天象免费使用（观测地点当地日历今天前 7 天至后 30 天），并提供可选的「司天订阅」自动续订服务：</p>
+        <ul>
+          <li data-hant="<strong>訂閱方案與週期</strong>：提供「月度司天」（按 1 個月週期自動續訂）與「年度司天」（按 1 年週期自動續訂）兩種方案。實際價格、幣種及首月優惠資格均以 App 內「司天訂閱」頁面及 App Store 購買確認頁顯示為準。"><strong>订阅方案与周期</strong>：提供「月度司天」（按 1 个月周期自动续订）与「年度司天」（按 1 年周期自动续订）两种方案。实际价格、币种及首月优惠资格均以 App 内「司天订阅」页面及 App Store 购买确认页显示为准。</li>
+          <li data-hant="<strong>訂閱權益</strong>：有效訂閱期間開放已正式發布的歷史與未來一年天象查詢、篩選日「仍在持續」天象，以及星空「斗建、十二次、十二方位」專屬圖層。"><strong>订阅权益</strong>：有效订阅期间开放已正式发布的历史与未来一年天象查询、筛选日「仍在持续」天象，以及星空「斗建、十二次、十二方位」专属图层。</li>
+          <li data-hant="<strong>付款與自動續費</strong>：確認購買時，費用將從你的 Apple 帳戶扣取。除非在當前訂閱週期結束前<strong>至少 24 小時</strong>關閉自動續訂，否則訂閱將自動續期；Apple 帳戶將在當前訂閱週期結束前 24 小時內按所選方案續訂價格扣費。"><strong>付款与自动续费</strong>：确认购买时，费用将从你的 Apple 账户扣取。除非在当前订阅周期结束前<strong>至少 24 小时</strong>关闭自动续订，否则订阅将自动续期；Apple 账户将在当前订阅周期结束前 24 小时内按所选方案续订价格扣费。</li>
+          <li data-hant="<strong>首月優惠說明</strong>：符合優惠資格的用戶購買月度自動續訂方案時，首個計費月適用優惠價格，次月起按標準月度價格自動續訂，直至主動取消。取消自動續訂後不會追收差價，當前已付費週期仍可使用至到期日。"><strong>首月优惠说明</strong>：符合优惠资格的用户购买月度自动续订方案时，首个计费月适用优惠价格，次月起按标准月度价格自动续订，直至主动取消。取消自动续订后不会追收差价，当前已付费周期仍可使用至到期日。</li>
+          <li data-hant="<strong>管理、取消與到期規則</strong>：購買後可隨時前往 iPhone「設定 → Apple 帳戶 → 訂閱」（或 <a href=&quot;https://apps.apple.com/account/subscriptions&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;>管理 Apple 訂閱</a>）查看或取消自動續訂。更換裝置時可在 App「司天訂閱」頁點擊「恢復購買」。訂閱到期後自動恢復為免費權限，<strong>不會刪除本機收藏、設定與已下載資料</strong>，但免費窗口外的待發提醒將自動失效。"><strong>管理、取消与到期规则</strong>：购买后可随时前往 iPhone「设置 → Apple 账户 → 订阅」（或 <a href="https://apps.apple.com/account/subscriptions" rel="noopener noreferrer" target="_blank">管理 Apple 订阅</a>）查看或取消自动续订。更换设备时可在 App「司天订阅」页点击「恢复购买」。订阅到期后自动恢复为免费权限，<strong>不会删除本机收藏、设置与已下载资料</strong>，但免费窗口外的待发提醒将自动失效。</li>
+        </ul>
+      </section>
+
+      <section class="glass-card section-card">
+        <h2 data-hant="4. 天文觀測參考與安全聲明">4. 天文观测参考与安全声明</h2>
+        <p data-hant="App 內的星空模擬、天象時刻、肉眼觀測機會及古籍文獻引文僅供天文學習與觀測規劃參考。實際觀測結果受天氣、大氣消光、地形遮擋與城市光害等因素影響；古代年代因地球自轉（ΔT）與曆法考據的不確定性，計算結果不作為絕對史實定論。">App 内的星空模拟、天象时刻、肉眼观测机会及古籍文献引文仅供天文学习与观测规划参考。实际观测结果受天气、大气消光、地形遮挡与城市光害等因素影响；古代年代因地球自转（ΔT）与历法考据的不确定性，计算结果不作为绝对史实定论。</p>
+        <p data-hant="<strong>觀測安全提示</strong>：切勿在無專業巴德膜等合格減光濾鏡保護下，以肉眼、雙筒望遠鏡或天文望遠鏡直視太陽（含日食與水星、金星凌日期間），以免造成永久性視力損傷。"><strong>观测安全提示</strong>：切勿在无专业巴德膜等合格减光滤镜保护下，以肉眼、双筒望远镜或天文望远镜直视太阳（含日食与水星、金星凌日期间），以免造成永久性视力损伤。</p>
+      </section>
+
+      <section class="glass-card section-card">
+        <h2 data-hant="5. 聯繫方式與條款修訂">5. 联系方式与条款修订</h2>
+        <p data-hant="如對本使用條款或訂閱服務有任何疑問，請聯繫 <a href=&quot;mailto:mingwentaiii@gmail.com&quot;>mingwentaiii@gmail.com</a>。你亦可隨時查閱 <a id=&quot;apple-eula-link&quot; href=&quot;https://www.apple.com/legal/internet-services/itunes/dev/stdeula/&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;>Apple 標準最終用戶許可協議全文</a>。">如对本使用条款或订阅服务有任何疑问，请联系 <a href="mailto:mingwentaiii@gmail.com">mingwentaiii@gmail.com</a>。你亦可随时查阅 <a id="apple-eula-link" href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" rel="noopener noreferrer" target="_blank">Apple 标准最终用户许可协议全文</a>。</p>
+      </section>
+    </div>
+
+    <footer class="site-footer">
+      <span data-hant="華夏天文 · 開發者：姜東方">华夏天文 · 开发者：姜东方</span>
+      <div class="footer-links">
+        <a href="index.html" data-hant="首頁">首页</a>
+        <a href="privacy.html" data-hant="隱私政策">隐私政策</a>
+        <a href="support.html" data-hant="幫助與聯繫">帮助与联系</a>
+        <a href="mailto:mingwentaiii@gmail.com">mingwentaiii@gmail.com</a>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
